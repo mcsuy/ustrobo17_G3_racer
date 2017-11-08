@@ -10,8 +10,7 @@
       <TargetName>stm32f103rb_template</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060528::V5.06 update 5 (build 528)::ARMCC</pCCUsed>
-      <uAC6>0</uAC6>
+      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32F103RB</Device>
@@ -569,16 +568,6 @@
               <FileName>gpio.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\src\library\gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>lighting.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\lighting.c</FilePath>
-            </File>
-            <File>
-              <FileName>lighting.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\lighting.h</FilePath>
             </File>
             <File>
               <FileName>ov7725define.h</FileName>
