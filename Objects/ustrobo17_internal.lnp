@@ -37,7 +37,7 @@
 ".\objects\gpio.o"
 ".\objects\camera.o"
 ".\objects\main.o"
---strict --scatter ".\Objects\ustrobo17_internal.sct"
+--library_type=microlib --strict --scatter ".\Objects\ustrobo17_internal.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\ustrobo17_internal.map" -o .\Objects\ustrobo17_internal.axf
