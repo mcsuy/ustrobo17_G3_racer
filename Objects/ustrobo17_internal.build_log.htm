@@ -27,14 +27,23 @@ Project File Date:  11/09/2017
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'stm32f103rb_template'
-".\Objects\ustrobo17_internal.axf" - 0 Error(s), 0 Warning(s).
+compiling main.c...
+src\user\main.c(56): warning:  #940-D: missing return statement at end of non-void function "midpoint" 
+  }
+src\user\main.c(64): warning:  #177-D: variable "buttonPrevious"  was declared but never referenced
+  	uint8_t buttonPrevious[3] = { 1, 1, 1 };
+src\user\main.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=12048 RO-data=312 RW-data=8480 ZI-data=17688  
+FromELF: creating hex file...
+".\Objects\ustrobo17_internal.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   .\RTE\_stm32f103rb_template
   C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:00
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

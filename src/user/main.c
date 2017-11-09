@@ -99,7 +99,7 @@ int main(){
 				if(take_flags == 2){
 					tft_prints(0,9,"%dms per frame",get_ticks() - t0);
 					tft_update();
-					//tft_displayBandW();
+					tft_displayBandW();
 					take_flags = 0;
 				}
 				
